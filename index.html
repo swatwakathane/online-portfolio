@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swatwa Kathane</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo" width="250" height="80">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="http://swatwakathane.free.nf">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h2>Hi, I'm <span>Swatwa</span><br><span style="color: #711EAF">Kathane</span> From India</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- ******************* ABOUT PAGE ***************** -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column-1">
+                    <img src="Images/personalLogo.jpg">
+                </div>
+                <div class="column-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                        laboris nisi ut aliquip ex ea commodo consequat. 
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI Design</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI Design</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>UI Design</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                </div>
+
+    
+            </div>
+        </div>
+    </div>
+    <hr>
+
+<!-- *****************  WORK PAGE ***************** -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/blockchainPayment.jpeg">
+                    <div class="layer">
+                        <h3>MoneyHealer</h3>
+                        <p>A simple Blockchain based webApp based on etherium for transfering of coins through different accounts
+                        </p>
+                        <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/plantImage.jpeg">
+                    <div class="layer">
+                        <h3>PlantNet</h3>
+                        <p>Plant classification project using Machine Learning. Modal trained on plants dataset with confidence around 68%</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/chat application.jpeg">
+                    <div class="layer">
+                        <h3>EasyLink</h3>
+                        <p>An android messaging application developed in kotlin and firebase recreating Every basic CRUD operation
+                            on database.
+                        </p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <br> <br>
+            <a href="https://github.com/swatwakathane" class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+    <hr>
+
+        <!-- ----------------- contact Me ------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="left-col">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto: swatwakathane@gmail.com" style="text-decoration: none;">
+                        swatwakathane@gmail.com</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/swatwa-kathane/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/swatwakathane" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://twitter.com/swatwakathane/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.leetcode.com/swatwakathane/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                <a href="" download class="btn btn2">My Resume</a>
+                </div>
+                <div class="right-col">
+                    <form action=""  name="submit-to-google-sheet" autocomplete="on">
+                        <input type="text" name="NAME" placeholder="Your Name" required>
+                        <input type="email" name="EMAIL" placeholder="Your Email" required>
+                        <textarea name="MESSAGE"  rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright © Swatwa Kathane</p>
+        </div>
+    </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbylBP7IOQVcb1uDjWK8eyJztIgH7H7ez6DdSDxFydQvIEFXV6IIC3W-i-LYeBOr0b60ZA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert('Hey! This is Swatwa \nYour message has arrived Successfully. '))
+        .catch(error => alert('Error!\nTry again.', error.message))
+    })
+
+</script>
+
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemnu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemnu.style.right = "-150px";
+    }
+</script>
+
+</body>
+</html>
