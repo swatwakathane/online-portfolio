@@ -35,6 +35,15 @@ hr {
     
 }
 
+h1 {
+    display: inline;
+    font-size: 20px;
+}
+
+.column-2 p {
+    display: inline;
+}
+
 .container{
     padding: 10px 5%;
     margin-top: 0;
