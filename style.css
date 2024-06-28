@@ -66,14 +66,20 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     position: relative;
+}
 
+.editBlog {
+    color: #711EAF;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
 }
 
 nav ul li a::after{
     content:'';
     width: 0;
     height: 3px;
-    background: #711EAF;
+    background: #511281;
     left: 0;
     bottom: -6px;
     position: absolute;
@@ -130,9 +136,9 @@ nav ul li a:hover::after{
 .column-2 h2{
     margin: 15px 0;
 }
-.column-2 p {
+
+.justified {
     text-align: justify;
-    text-justify: inter-word;
 }
 
 .sub-title{
@@ -417,6 +423,10 @@ nav .fa-solid{
         margin-bottom: 30px; 
         display: grid;
         place-items: center;
+    }
+    .column-2 p {
+        text-align: justify;
+        text-justify: inter-word;
     }
 
     .left-col, .right-col{
